@@ -9,13 +9,14 @@ module.exports = function(grunt) {
       // },
       dist: {
         src: [
-          'public/client/app.js',
-          'public/client/link.js',
-          'public/client/links.js',
-          'public/client/linkView.js',
-          'public/client/linksView.js',
-          'public/client/createLinkView.js',
-          'public/client/router.js'
+          // 'public/client/app.js',
+          // 'public/client/link.js',
+          // 'public/client/links.js',
+          // 'public/client/linkView.js',
+          // 'public/client/linksView.js',
+          // 'public/client/createLinkView.js',
+          // 'public/client/router.js'
+          'public/**/*.js'
         ],
         dest: 'public/dist/app.js',
       },
@@ -37,6 +38,10 @@ module.exports = function(grunt) {
     },
 
     uglify: {
+      build: {
+        src: 'public/dist/app.js',
+        dest: 'public/dist/app.min.js'
+      }
     },
 
     eslint: {
@@ -46,6 +51,11 @@ module.exports = function(grunt) {
     },
 
     cssmin: {
+      target: {
+        files: {
+          'dist/style.min.css': ['public/style.css']
+        }
+      }
     },
 
     watch: {
@@ -93,7 +103,9 @@ module.exports = function(grunt) {
   ]);
 
   grunt.registerTask('build', [
-    'concat'
+    'concat',
+    'uglify',
+    'cssmin'
   ]);
 
   grunt.registerTask('upload', function(n) {
