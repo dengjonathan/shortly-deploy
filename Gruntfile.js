@@ -4,22 +4,19 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
 
     concat: {
-      // options: {
-      //   separator: ';',
-      // },
       dist: {
-        src: [
-          // 'public/client/app.js',
-          // 'public/client/link.js',
-          // 'public/client/links.js',
-          // 'public/client/linkView.js',
-          // 'public/client/linksView.js',
-          // 'public/client/createLinkView.js',
-          // 'public/client/router.js'
-          'public/**/*.js'
-        ],
-        dest: 'public/dist/app.js',
+        src: ['public/client/*.js'],
+        dest: 'public/dist/app.js'
       },
+      libs: {
+        src: [
+          'public/lib/jquery.js',
+          'public/lib/underscore.js',
+          'public/lib/backbone.js',
+          'public/lib/handlebars.js'
+        ],
+        dest: 'public/dist/libs.js',
+      }
     },
 
     mochaTest: {
@@ -39,14 +36,17 @@ module.exports = function(grunt) {
 
     uglify: {
       build: {
-        src: 'public/dist/app.js',
-        dest: 'public/dist/app.min.js'
+        files: {
+          'public/dist/app.min.js': 'public/dist/app.js',
+          'public/dist/libs.min.js': 'public/dist/libs.js'
+        }
       }
     },
 
     eslint: {
       target: [
-        // Add list of files to lint here
+        'public/client/*.js',
+        'app/**/*.js'
       ]
     },
 
@@ -89,6 +89,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-mocha-test');
   grunt.loadNpmTasks('grunt-shell');
   grunt.loadNpmTasks('grunt-nodemon');
+  grunt.loadNpmTasks('grunt-git');
 
   grunt.registerTask('server-dev', function (target) {
     grunt.task.run([ 'nodemon', 'watch' ]);
@@ -102,11 +103,15 @@ module.exports = function(grunt) {
     'mochaTest'
   ]);
 
-  grunt.registerTask('build', [
-    'concat',
-    'uglify',
-    'cssmin'
-  ]);
+  grunt.registerTask('build', function(n) {
+    try {
+      grunt.task.run(['eslint', 'test']);
+    } catch (err) {
+      console.log('build failed: ', err);
+      throw err;
+    }
+    grunt.task.run(['concat', 'uglify', 'cssmin']);
+  });
 
   grunt.registerTask('upload', function(n) {
     if (grunt.option('prod')) {
@@ -116,9 +121,8 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.registerTask('deploy', [
-    // add your deploy tasks here
-  ]);
+  grunt.registerTask('deploy', function(n) {
 
+  });
 
 };
