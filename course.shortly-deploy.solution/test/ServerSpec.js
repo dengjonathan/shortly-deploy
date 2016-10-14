@@ -4,14 +4,15 @@ var expect = require('chai').expect;
 var app = require('../server-config.js');
 
 var db = require('../app/config');
-var User = require('../app/models/user');
-var Link = require('../app/models/link');
+
+var User = require('../app/models/user.solution');
+var Link = require('../app/models/link.solution');
 
 /////////////////////////////////////////////////////
 // NOTE: these tests are designed for mongo!
 /////////////////////////////////////////////////////
 
-describe('', function() {
+describe ('', function() {
 
   beforeEach(function(done) {
     // Log out currently signed in user
@@ -98,7 +99,7 @@ describe('', function() {
           visits: 0
         });
 
-        link.saveUrl(function() {
+        link.save(function() {
           done();
         });
       });
@@ -175,13 +176,13 @@ describe('', function() {
       request(app)
         .post('/signup')
         .send({
-          'username': 'batman',
-          'password': 'batman' })
+          'username': 'Svnh',
+          'password': 'Svnh' })
         .expect(302)
         .expect(function() {
-          User.findOne({'username': 'batman'})
+          User.findOne({'username': 'Svnh'})
             .exec(function(err, user) {
-              expect(user.username).to.equal('batman');
+              expect(user.username).to.equal('Svnh');
             });
         })
         .end(done);

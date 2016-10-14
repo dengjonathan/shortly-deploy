@@ -6,6 +6,8 @@ var util = require('../lib/utility');
 var db = require('../app/config');
 var User = require('../app/models/user');
 var Link = require('../app/models/link');
+var Users = require('../app/collections/users');
+var Links = require('../app/collections/links');
 
 exports.renderIndex = function(req, res) {
   res.render('index');
@@ -26,8 +28,8 @@ exports.logoutUser = function(req, res) {
 };
 
 exports.fetchLinks = function(req, res) {
-  Link.find({}).exec(function(err, links) {
-    res.status(200).send(links);
+  Links.reset().fetch().then(function(links) {
+    res.status(200).send(links.models);
   });
 };
 
@@ -39,10 +41,9 @@ exports.saveLink = function(req, res) {
     return res.sendStatus(404);
   }
 
-  Link.find({url: uri}).exec(function(err, links) {
-    if (links.length !== 0) {
-      console.log('link already found');
-      res.status(200).send(links[0]);
+  new Link({ url: uri }).fetch().then(function(found) {
+    if (found) {
+      res.status(200).send(found.attributes);
     } else {
       util.getUrlTitle(uri, function(err, title) {
         if (err) {
@@ -52,14 +53,11 @@ exports.saveLink = function(req, res) {
         var newLink = new Link({
           url: uri,
           title: title,
-          baseUrl: req.headers.origin,
-          visits: 0,
-          created_at: new Date(),
-          updated_at: new Date()
+          baseUrl: req.headers.origin
         });
-        newLink.saveUrl(function(err, url) {
-          console.log('url sending back', url);
-          if (!err) res.status(200).send(url);
+        newLink.save().then(function(newLink) {
+          Links.add(newLink);
+          res.status(200).send(newLink);
         });
       });
     }
@@ -70,8 +68,9 @@ exports.loginUser = function(req, res) {
   var username = req.body.username;
   var password = req.body.password;
 
-  User.findOne({ username: username })
-    .exec(function(err, user) {
+  new User({ username: username })
+    .fetch()
+    .then(function(user) {
       if (!user) {
         res.redirect('/login');
       } else {
@@ -90,18 +89,19 @@ exports.signupUser = function(req, res) {
   var username = req.body.username;
   var password = req.body.password;
 
-  User.findOne({ username: username })
-    .exec(function(err, user) {
+  new User({ username: username })
+    .fetch()
+    .then(function(user) {
       if (!user) {
         var newUser = new User({
           username: username,
           password: password
         });
-        newUser.save().then(function(user) {
-          util.createSession(req, res, user);
-        }, function(err) {
-          res.status(500).send(err);
-        });
+        newUser.save()
+          .then(function(newUser) {
+            Users.add(newUser);
+            util.createSession(req, res, newUser);
+          });
       } else {
         console.log('Account already exists');
         res.redirect('/signup');
@@ -110,15 +110,15 @@ exports.signupUser = function(req, res) {
 };
 
 exports.navToLink = function(req, res) {
-  Link.findOne({ code: req.params[0] }).exec(function(err, link) {
+  new Link({ code: req.params[0] }).fetch().then(function(link) {
     if (!link) {
       res.redirect('/');
     } else {
-      link.visits++;
-      link.save(function(err, link) {
-        res.redirect(link.url);
-        return;
-      });
+      link.set({ visits: link.get('visits') + 1 })
+        .save()
+        .then(function() {
+          return res.redirect(link.get('url'));
+        });
     }
   });
 };

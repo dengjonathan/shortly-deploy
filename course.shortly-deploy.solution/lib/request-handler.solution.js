@@ -3,9 +3,11 @@ var crypto = require('crypto');
 var bcrypt = require('bcrypt-nodejs');
 var util = require('../lib/utility');
 
-var db = require('../app/config');
-var User = require('../app/models/user');
-var Link = require('../app/models/link');
+var db = require('../app/config.solution');
+var User = require('../app/models/user.solution');
+var Link = require('../app/models/link.solution');
+
+
 
 exports.renderIndex = function(req, res) {
   res.render('index');
@@ -39,10 +41,9 @@ exports.saveLink = function(req, res) {
     return res.sendStatus(404);
   }
 
-  Link.find({url: uri}).exec(function(err, links) {
-    if (links.length !== 0) {
-      console.log('link already found');
-      res.status(200).send(links[0]);
+  Link.findOne({ url: uri }).exec(function(err, found) {
+    if (found) {
+      res.status(200).send(found);
     } else {
       util.getUrlTitle(uri, function(err, title) {
         if (err) {
@@ -53,13 +54,14 @@ exports.saveLink = function(req, res) {
           url: uri,
           title: title,
           baseUrl: req.headers.origin,
-          visits: 0,
-          created_at: new Date(),
-          updated_at: new Date()
+          visits: 0
         });
-        newLink.saveUrl(function(err, url) {
-          console.log('url sending back', url);
-          if (!err) res.status(200).send(url);
+        newLink.save(function(err, newLink) {
+          if (err) {
+            res.status(500).send(err);
+          } else {
+            res.status(200).send(newLink);
+          }
         });
       });
     }
@@ -75,7 +77,7 @@ exports.loginUser = function(req, res) {
       if (!user) {
         res.redirect('/login');
       } else {
-        user.comparePassword(password, function(match) {
+        User.comparePassword(password, user.password, function(err, match) {
           if (match) {
             util.createSession(req, res, user);
           } else {
@@ -97,10 +99,11 @@ exports.signupUser = function(req, res) {
           username: username,
           password: password
         });
-        newUser.save().then(function(user) {
-          util.createSession(req, res, user);
-        }, function(err) {
-          res.status(500).send(err);
+        newUser.save(function(err, newUser) {
+          if (err) {
+            res.status(500).send(err);
+          }
+          util.createSession(req, res, newUser);
         });
       } else {
         console.log('Account already exists');

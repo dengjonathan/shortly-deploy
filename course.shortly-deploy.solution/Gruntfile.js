@@ -2,22 +2,16 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
-
     concat: {
-      dist: {
-        src: ['public/client/*.js'],
-        dest: 'public/dist/app.js'
+
+      options: {
+        separator: ';'
       },
-      libs: {
-        src: [
-          'public/lib/jquery.js',
-          'public/lib/underscore.js',
-          'public/lib/backbone.js',
-          'public/lib/handlebars.js'
-        ],
-        dest: 'public/dist/libs.js',
+      dist: {
+        src: ['public/client/**/*.js'],
+        dest: 'public/dist/<%= pkg.name %>.js'
       }
-    },
+          },
 
     mochaTest: {
       test: {
@@ -35,28 +29,40 @@ module.exports = function(grunt) {
     },
 
     uglify: {
-      build: {
+
+      options: {
+        banner: '/*! <%= pkg.name %> <%= grunt.template.today("dd-mm-yyyy") %> */\n'
+      },
+      dist: {
         files: {
-          'public/dist/app.min.js': 'public/dist/app.js',
-          'public/dist/libs.min.js': 'public/dist/libs.js'
+          'public/dist/<%= pkg.name %>.min.js': ['<%= concat.dist.dest %>']
         }
       }
-    },
+          },
 
     eslint: {
       target: [
-        'public/client/*.js',
-        'app/**/*.js'
-      ]
+
+        'Gruntfile.js',
+        'app/**/*.js',
+        'public/**/*.js',
+        'lib/**/*.js',
+        './*.js',
+        'spec/**/*.js'
+              ]
     },
 
     cssmin: {
-      target: {
+
+      options: {
+        keepSpecialComments: 0
+      },
+      dist: {
         files: {
-          'public/dist/style.min.css': ['public/style.css']
+          'public/dist/style.min.css': 'public/style.css'
         }
       }
-    },
+          },
 
     watch: {
       scripts: {
@@ -77,7 +83,14 @@ module.exports = function(grunt) {
 
     shell: {
       prodServer: {
-      }
+
+        command: 'git push live master',
+        options: {
+          stdout: true,
+          stderr: true,
+          failOnError: true
+        }
+              }
     },
   });
 
@@ -89,7 +102,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-mocha-test');
   grunt.loadNpmTasks('grunt-shell');
   grunt.loadNpmTasks('grunt-nodemon');
-  grunt.loadNpmTasks('grunt-git');
+
   grunt.registerTask('server-dev', function (target) {
     grunt.task.run([ 'nodemon', 'watch' ]);
   });
@@ -99,29 +112,33 @@ module.exports = function(grunt) {
   ////////////////////////////////////////////////////
 
   grunt.registerTask('test', [
-    'mochaTest'
+
+    'eslint',
+        'mochaTest'
   ]);
 
-  grunt.registerTask('build', function(n) {
-    try {
-      grunt.task.run(['eslint', 'test']);
-    } catch (err) {
-      console.log('build failed: ', err);
-      throw err;
-    }
-    grunt.task.run(['concat', 'uglify', 'cssmin']);
-  });
+  grunt.registerTask('build', [
+
+    'concat',
+    'uglify',
+    'cssmin'
+      ]);
 
   grunt.registerTask('upload', function(n) {
     if (grunt.option('prod')) {
-      // add your production server task here
-    } else {
+
+      grunt.task.run([ 'shell:prodServer' ]);
+          } else {
       grunt.task.run([ 'server-dev' ]);
     }
   });
 
-  grunt.registerTask('deploy', function(n) {
+  grunt.registerTask('deploy', [
 
-  });
+    'test',
+    'build',
+    'upload'
+      ]);
+
 
 };

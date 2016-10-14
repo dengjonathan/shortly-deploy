@@ -1,0 +1,2037 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"vot",
+				"votedWith"
+			],
+			[
+				"create",
+				"createElement〔function〕"
+			],
+			[
+				"chai",
+				"chai-immutable"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"se",
+				"sequelize"
+			],
+			[
+				"next",
+				"nextState"
+			],
+			[
+				"nex",
+				"nextState"
+			],
+			[
+				"get",
+				"getGitHubProfile〔function〕"
+			],
+			[
+				"file",
+				"filePath〔argument〕"
+			],
+			[
+				"stat",
+				"status"
+			],
+			[
+				"fil",
+				"filePath〔argument〕"
+			],
+			[
+				"http",
+				"http-helpers"
+			],
+			[
+				"handel",
+				"handleGet〔function〕"
+			],
+			[
+				"htt",
+				"httpHelper〔variable〕"
+			],
+			[
+				"how",
+				"howManyFit〔variable〕"
+			],
+			[
+				"fin",
+				"findLargestCoinThatFits"
+			],
+			[
+				"hand",
+				"handleRequest"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"fot",
+				"font-style"
+			],
+			[
+				"curr",
+				"currentAvatar"
+			],
+			[
+				"curre",
+				"currentDate"
+			],
+			[
+				"image",
+				"imagePath"
+			],
+			[
+				"defaul",
+				"defaultProps"
+			],
+			[
+				"defa",
+				"defaultProps"
+			],
+			[
+				"htm",
+				"html5\tSimple HTML5 Boilerplate"
+			],
+			[
+				"Vido",
+				"VideoListEntry"
+			],
+			[
+				"obj",
+				"objectOne〔argument〕"
+			],
+			[
+				"set",
+				"setState"
+			],
+			[
+				"number",
+				"numbersByPlace"
+			],
+			[
+				"parse",
+				"parseInt〔function〕"
+			],
+			[
+				"new",
+				"newArr〔variable〕"
+			],
+			[
+				"numb",
+				"numbersByPlace"
+			],
+			[
+				"num",
+				"numbersToPlace"
+			],
+			[
+				"trans",
+				"transition-timing-function"
+			],
+			[
+				"Rea",
+				"ReactCSSTranstion〔variable〕"
+			],
+			[
+				"prop",
+				"propTypes"
+			],
+			[
+				"Main",
+				"MainContainer〔function〕"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"ali",
+				"align-content"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"playe",
+				"playerView"
+			],
+			[
+				"su",
+				"submit"
+			],
+			[
+				"red",
+				"renderRoom〔function〕"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"phon",
+				"phoneNumber"
+			],
+			[
+				"icon",
+				"iconHeight"
+			],
+			[
+				"enem",
+				"enemyData"
+			],
+			[
+				"gen",
+				"genEnemies"
+			],
+			[
+				"make",
+				"makeResponsive"
+			],
+			[
+				"random",
+				"randomFromArr"
+			],
+			[
+				"inser",
+				"insertionSort〔function〕"
+			],
+			[
+				"scri",
+				"script\t<script>"
+			],
+			[
+				"outpu",
+				"outputStr〔variable〕"
+			],
+			[
+				"esc",
+				"escapeHtml"
+			],
+			[
+				"col",
+				"colIndex"
+			],
+			[
+				"row",
+				"rowIndex〔variable〕"
+			],
+			[
+				"di",
+				"diagonalIndex"
+			],
+			[
+				"has",
+				"hasAnyMajorDiagonalConflicts"
+			],
+			[
+				"dia",
+				"diagonalIndex"
+			],
+			[
+				"diag",
+				"diagonalIndex"
+			],
+			[
+				"ma",
+				"majorDiagonalColumnIndexAtFirstRow"
+			],
+			[
+				"btn",
+				"btn-default"
+			],
+			[
+				"backg",
+				"background-size"
+			],
+			[
+				"bli",
+				"blinkyDancer"
+			],
+			[
+				"time",
+				"timeBetweenSteps"
+			],
+			[
+				"dance",
+				"dancerMakerFunctionName"
+			],
+			[
+				"prot",
+				"prototype"
+			],
+			[
+				"data",
+				"data-structures"
+			],
+			[
+				"sprin",
+				"sprint_workflow.sh"
+			],
+			[
+				"remt",
+				"remoteName"
+			],
+			[
+				"gith",
+				"githubURL"
+			],
+			[
+				"inde",
+				"indexOf"
+			],
+			[
+				"ret",
+				"returnAll〔function〕"
+			],
+			[
+				"Star",
+				"StartOver"
+			],
+			[
+				"win",
+				"winningInd〔variable〕"
+			],
+			[
+				"User",
+				"UserDetails〔variable〕"
+			],
+			[
+				"UserD",
+				"UserDetailsWrapper〔variable〕"
+			],
+			[
+				"string",
+				"stringifyJSON〔function〕"
+			],
+			[
+				"play",
+				"playerTwoData〔variable〕"
+			],
+			[
+				"player",
+				"players〔argument〕"
+			],
+			[
+				"RE",
+				"ResultsContainer"
+			],
+			[
+				"Res",
+				"ResultsContainer"
+			],
+			[
+				"UserDe",
+				"UserDetailsWrapper"
+			],
+			[
+				"col-sm",
+				"col-sm-8"
+			],
+			[
+				"React",
+				"ReactRouter〔variable〕"
+			],
+			[
+				"is",
+				"isRequired"
+			],
+			[
+				"Con",
+				"ConfirmBattleContainer〔variable〕"
+			],
+			[
+				"Pro",
+				"PropTypes〔variable〕"
+			],
+			[
+				"p",
+				"Programming"
+			],
+			[
+				"onSub",
+				"onSubmitUser"
+			],
+			[
+				"return",
+				"return"
+			],
+			[
+				"all",
+				"all"
+			],
+			[
+				"json",
+				"json"
+			],
+			[
+				"str",
+				"stringified"
+			],
+			[
+				"type",
+				"type"
+			],
+			[
+				"delmi",
+				"delimiters"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 2570,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/config.js",
+			"settings":
+			{
+				"buffer_size": 1475,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/ESLint/ESLint.sublime-build",
+					""
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/node.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/node.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/JSHint/JSHint.sublime-build",
+					""
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/node.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/node.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/JSHint/JSHint.sublime-build",
+					""
+				],
+				[
+					"Packages/User/node.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/JSHint/JSHint.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"floo",
+				"Floobits - Leave Workspace"
+			],
+			[
+				"eslin",
+				"ESLint Formatter: Format this file"
+			],
+			[
+				"set babel",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"s",
+				"Snippet: interval"
+			],
+			[
+				"eslint",
+				"ESLint Formatter: Format this file"
+			],
+			[
+				"set bab",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"esformat",
+				"ESLint Formatter: Format this file"
+			],
+			[
+				"es",
+				"ESLint Formatter: Format this file"
+			],
+			[
+				"Todo",
+				"TodoReview: Open Files"
+			],
+			[
+				"to",
+				"TodoReview: Project and Open Files"
+			],
+			[
+				"floobits bro",
+				"Floobits - Open Workspace in your Browser"
+			],
+			[
+				"flo",
+				"Floobits - Share Directory (Private)"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"htm",
+				"HTMLPrettify: Set Plugin Options"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"save work",
+				"Floobits - Leave Workspace"
+			],
+			[
+				"o",
+				"Origami: Destroy Current Pane"
+			],
+			[
+				"join",
+				"Floobits - Join Recent Workspace"
+			],
+			[
+				"leav",
+				"Floobits - Leave Workspace"
+			],
+			[
+				"prettify",
+				"HTMLPrettify: Set Plugin Options"
+			],
+			[
+				"list user",
+				"Floobits - List Users"
+			],
+			[
+				"floot",
+				"Floobits - Join Workspace"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"esll",
+				"Set Syntax: LaTeX Log"
+			],
+			[
+				"esli",
+				"ESLint Formatter: Format this file"
+			],
+			[
+				"floo ",
+				"Floobits - Join Recent Workspace"
+			],
+			[
+				"floo lea",
+				"Floobits - Leave Workspace"
+			],
+			[
+				"list ",
+				"Floobits - List Users"
+			],
+			[
+				"set bael",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"set bable",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"snippet React",
+				"Snippet: reactClass"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"set pre",
+				"HTMLPrettify: Set Prettify Preferences"
+			],
+			[
+				"set babe",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"html",
+				"HTMLPrettify: Set Prettify Preferences"
+			],
+			[
+				"gist",
+				"Gist: Open Gist"
+			],
+			[
+				"floo join",
+				"Floobits - Join Recent Workspace"
+			],
+			[
+				"linter htm",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"todo",
+				"TodoReview: Open Files"
+			],
+			[
+				"fl",
+				"Floobits - Join Workspace"
+			],
+			[
+				"linter setting",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"remove p",
+				"Package Control: Remove Package"
+			],
+			[
+				"ther",
+				"Themr: List themes"
+			],
+			[
+				"pretti",
+				"HTMLPrettify: Set Plugin Options"
+			],
+			[
+				"un",
+				"Code Folding: Unfold All"
+			],
+			[
+				"set syntax babe",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"floobits ",
+				"Floobits - List Users"
+			],
+			[
+				"tod",
+				"TodoReview: Open Files"
+			],
+			[
+				"dest",
+				"Origami: Destroy Current Pane"
+			],
+			[
+				"floobit",
+				"Floobits - Share Directory (Private)"
+			],
+			[
+				"flko",
+				"Floobits - Join Workspace"
+			],
+			[
+				"floobits dele",
+				"Floobits - Delete Workspace"
+			],
+			[
+				"floobits",
+				"Floobits - Leave Workspace"
+			],
+			[
+				"floob",
+				"Floobits - Join Recent Workspace"
+			],
+			[
+				"HTM",
+				"HTMLPrettify: Set Plugin Options"
+			],
+			[
+				"linter",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"set syntax babel",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"pretty",
+				"HTMLPrettify"
+			],
+			[
+				"prettif",
+				"HTMLPrettify"
+			],
+			[
+				"set syn java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"or",
+				"Origami: Destroy Current Pane"
+			],
+			[
+				"sy babe",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"sy bab",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"markdown et",
+				"Preferences: MarkdownEditing Settings – Default"
+			],
+			[
+				"syntax babel",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"evernote new",
+				"Evernote: New empty note"
+			],
+			[
+				"ever",
+				"Evernote: Search Note"
+			],
+			[
+				"set ba",
+				"Set Syntax: Batch File"
+			],
+			[
+				"threm",
+				"Themr: List themes"
+			],
+			[
+				"jsbea",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"git dif",
+				"git: diff"
+			],
+			[
+				"linter tog",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"sublime",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"term",
+				"Terminal: Open"
+			],
+			[
+				"termi",
+				"Terminal: Open"
+			],
+			[
+				"evernote sen",
+				"Evernote: Send to Evernote as new note"
+			],
+			[
+				"evern",
+				"Evernote: New empty note"
+			],
+			[
+				"evernote",
+				"Evernote: Open Evernote Note"
+			],
+			[
+				"Eve",
+				"Evernote: Create New Notebook"
+			],
+			[
+				"Evernote rec",
+				"Evernote: List recent notes"
+			],
+			[
+				"Even",
+				"Evernote: Open Evernote Note"
+			],
+			[
+				"Evernote Rec",
+				"Evernote Settings: Reconfigure Authorization"
+			],
+			[
+				"ht",
+				"HTMLPrettify"
+			],
+			[
+				"termina",
+				"Terminal: Open"
+			],
+			[
+				"origami: des",
+				"Origami: Destroy Current Pane"
+			],
+			[
+				"glue",
+				"Glue - Launch"
+			],
+			[
+				"pane",
+				"Package Control: Enable Package"
+			],
+			[
+				"preferences: pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"gist setti",
+				"Gist: Insert Gist"
+			],
+			[
+				"PREFERENCE package settings",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"preferences:pa",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"htmy",
+				"HTMLPrettify: Set Plugin Options"
+			],
+			[
+				"beau",
+				"HTMLBeautify"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"them",
+				"Themr: List themes"
+			],
+			[
+				"themr",
+				"Themr: List themes"
+			],
+			[
+				"Mater",
+				"Material Theme: Activate theme"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/course.shortly-deploy.exercise",
+		"/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/course.shortly-deploy.exercise/app",
+		"/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/course.shortly-deploy.exercise/app/collections",
+		"/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/course.shortly-deploy.exercise/public",
+		"/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/course.shortly-deploy.exercise/public/client",
+		"/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/course.shortly-deploy.exercise/public/dist",
+		"/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/course.shortly-deploy.exercise/public/lib",
+		"/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/course.shortly-deploy.exercise/test",
+		"/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/course.shortly-deploy.exercise/views",
+		"/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/course.shortly-deploy.exercise/views/partials"
+	],
+	"file_history":
+	[
+		"/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/course.shortly-deploy.exercise/package.json",
+		"/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/course.shortly-deploy.exercise/views/index.ejs",
+		"/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/course.shortly-deploy.exercise/views/layout.ejs",
+		"/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/node-js-getting-started/Procfile",
+		"/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/node-js-getting-started/.env",
+		"/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/node-js-getting-started/package.json",
+		"/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/node-js-getting-started/index.js",
+		"/Users/jonathandeng/GoogleDrive/Programming/redux-tutorial/voting-client/src/App.test.js",
+		"/Users/jonathandeng/GoogleDrive/Programming/redux-tutorial/voting-",
+		"/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/course.shortly-express.exercise/package.json",
+		"/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/course.shortly-express.exercise/app/models/link.js",
+		"/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/course.shortly-express.exercise/app/collections/links.js",
+		"/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/course.shortly-express.exercise/app/config.js",
+		"/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/course.shortly-express.exercise/test/ServerSpec.js",
+		"/Users/jonathandeng/bin/sprint_workflow.sh",
+		"/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/2016-09-self-assessments-week-04/node-post-reqs/server.js",
+		"/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/2016-09-self-assessments-week-04/no-sql-compare-sql/nonRelationExplanaiton.js",
+		"/Users/jonathandeng/GoogleDrive/Programming/redux-tutorial/voting-client/src/components/Pair.jsx",
+		"/Users/jonathandeng/GoogleDrive/Programming/playground/httpServer.js",
+		"/Users/jonathandeng/Library/Application Support/Sublime Text 3/Packages/User/babel.sublime-build",
+		"/Users/jonathandeng/Library/Application Support/Sublime Text 3/Packages/User/ESLint-Formatter.sublime-settings",
+		"/Users/jonathandeng/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/Users/jonathandeng/GoogleDrive/Programming/voting-server/entries.json",
+		"/Users/jonathandeng/GoogleDrive/Programming/voting-server/src/index.js",
+		"/Users/jonathandeng/GoogleDrive/Programming/voting-server/logs.txt",
+		"/Users/jonathandeng/GoogleDrive/Programming/voting-server/package.json",
+		"/Users/jonathandeng/GoogleDrive/Programming/voting-server/src/reducer.js",
+		"/Users/jonathandeng/GoogleDrive/Programming/voting-server/src/core.js",
+		"/Users/jonathandeng/GoogleDrive/Programming/voting-server/src/store.js",
+		"/Users/jonathandeng/GoogleDrive/Programming/voting-server/.eslintrc.json",
+		"/Users/jonathandeng/Downloads/course.databases.solution/orm-refactor.solution/db/index.js",
+		"/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/course.databases.exercise/server/spec/server-spec.js",
+		"/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/course.databases.exercise/server/schema.sql",
+		"/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/course.databases.exercise/client/client/scripts/app.js",
+		"/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/course.databases.exercise/client/client/env/config.example.js",
+		"/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/course.databases.exercise/package.json",
+		"/Users/jonathandeng/GoogleDrive/Programming/voting-server/.eslintrc",
+		"/var/folders/qn/p5_hhnmj175dz0fkw43l22rw0000gn/T/index.html",
+		"/var/folders/qn/p5_hhnmj175dz0fkw43l22rw0000gn/T/package.json",
+		"/var/folders/qn/p5_hhnmj175dz0fkw43l22rw0000gn/T/server.js",
+		"/var/folders/qn/p5_hhnmj175dz0fkw43l22rw0000gn/T/webpack.config.js",
+		"/Users/jonathandeng/Downloads/course.web-historian.exercise",
+		"/Users/jonathandeng/GoogleDrive/Programming/playground/arrayception.js",
+		"/Users/jonathandeng/Downloads/course.web-historian.solution/web/http-helpers.js",
+		"/Users/jonathandeng/Downloads/course.promises.exercise/exercises/bare_minimum/promiseConstructor.js",
+		"/Users/jonathandeng/Downloads/course.promises.exercise/exercises/bare_minimum/callbackReview.js",
+		"/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/course.web-historian.exercise/archives/sites.txt",
+		"/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/course.web-historian.exercise/web/http-helpers.js",
+		"/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/course.web-historian.exercise/web/public/index.html",
+		"/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/course.web-historian.exercise/workers/cronJon-jon.sh",
+		"/Users/jonathandeng/logs.txt",
+		"/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/course.web-historian.exercise/package.json",
+		"/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/course.web-historian.exercise/test/test.js",
+		"/Users/jonathandeng/Google Drive/Programming/play",
+		"/Users/jonathandeng/Downloads/course.chatterbox-server.solution/server/request-handler.js",
+		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.chatterbox-server.exercise/server/logs.json",
+		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.chatterbox-server.exercise/logs.json",
+		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.chatterbox-server.exercise/server/spec/LiveServerIntegrationSpec.js",
+		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.chatterbox-server.exercise/.floo",
+		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.chatterbox-server.exercise/lib/moment.js",
+		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.chatterbox-server.exercise/server/spec/ServerSpec.js",
+		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.chatterbox-server.exercise/server/spec/Stubs.js",
+		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.chatterbox-server.exercise/client/index.html",
+		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.chatterbox-server.exercise/.eslintrc.js",
+		"/Users/jonathandeng/Google Drive/Programming/how-far-hr/package.json",
+		"/Users/jonathandeng/Google Drive/Programming/how-far-hr/index.html",
+		"/Users/jonathandeng/Google Drive/Programming/how-far-hr/app/assets/styles/main.css",
+		"/Users/jonathandeng/Google Drive/Programming/how-far-hr/app/components/Footer.jsx",
+		"/Users/jonathandeng/Library/Application Support/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/Users/jonathandeng/Google Drive/Programming/how-far-hr/app/state.js",
+		"/Users/jonathandeng/Google Drive/Programming/how-far-hr/.babelrc",
+		"/Users/jonathandeng/Google Drive/Programming/how-far-hr/app/index.html",
+		"/var/folders/qn/p5_hhnmj175dz0fkw43l22rw0000gn/T/.eslintrc.js",
+		"/Users/jonathandeng/Google Drive/Programming/how-far-hr/app/index.js",
+		"/Users/jonathandeng/Google Drive/Programming/how-far-hr/.eslintrc",
+		"/Users/jonathandeng/Google Drive/Programming/how-far-hr/app/server.js",
+		"/Users/jonathandeng/Google Drive/Programming/how-far-hr/.gitignore",
+		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.recast.ly.exercise/index.html",
+		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.recast.ly.exercise/SpecRunner.html",
+		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.recast.ly.exercise/src/config/youtube.js",
+		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.recast.ly.exercise/spec/components/AppSpec.jsx",
+		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.recast.ly.exercise/spec/components/SearchSpec.jsx",
+		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.recast.ly.exercise/spec/components/VideoListEntrySpec.jsx",
+		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.recast.ly.exercise/spec/components/VideoPlayerSpec.jsx",
+		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.recast.ly.exercise/spec/components/VideoListSpec.jsx",
+		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.recast.ly.exercise/src/index.js",
+		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.recast.ly.exercise/compiled/src/index.js",
+		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.recast.ly.exercise/package.json",
+		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.react-components.exercise/.eslintrc",
+		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.react-components.exercise/.eslintrc.js",
+		"/Users/jonathandeng/Library/Application Support/Sublime Text 3/Packages/ESLint-Formatter/ESLint-Formatter.sublime-settings",
+		"/Users/jonathandeng/Library/Application Support/Sublime Text 3/Packages/User/EsFormatter.sublime-settings",
+		"/Users/jonathandeng/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/Users/jonathandeng/Library/Application Support/Sublime Text 3/Packages/EsFormatter/EsFormatter.sublime-settings",
+		"/Users/jonathandeng/Google Drive/Programming/hr_practice/HR_precourse/React-Fundamentals/.eslintrc",
+		"/Users/jonathandeng/Google Drive/Programming/hr_practice/HR_precourse/React-Fundamentals/package.json",
+		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.mytunes.exercise/client/views/PlayerView.js",
+		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.mytunes.exercise/client/views/LibraryEntryView.js",
+		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.mytunes.exercise/client/views/AppView.js",
+		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.mytunes.exercise/client/collections/Songs.js",
+		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.mytunes.exercise/client/views/SongQueueEntryView.js",
+		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.mytunes.exercise/test/spec/PlayerViewSpec.js",
+		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.mytunes.exercise/client/views/SongQueueView.js",
+		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.mytunes.exercise/client/models/AppModel.js",
+		"/Users/jonathandeng/Google Drive/Programming/playground/stream.js",
+		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.chatterbox-client.exercise/SpecRunner.html",
+		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.chatterbox-client.exercise/client/env/config.js",
+		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.chatterbox-client.exercise/api_keys_jon",
+		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.chatterbox-client.exercise/bower.json",
+		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/2016-09-self-assessments-week-02/js-inheritance-pseudo-classical/js-inheritance-pseudo-classical.js",
+		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/2016-09-self-assessments-week-02/js-inheritance-pseudo-classical/README.md",
+		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/2016-09-self-assessments-week-02/d3-bounce/d3-bounce.js",
+		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/2016-09-self-assessments-week-02/algo-complexity/algo-complexity.js",
+		"/Users/jonathandeng/Google Drive/Programming/hack_reactor/course.watchout.exercise-jonathan-natasha/client/watchout.js",
+		"/Users/jonathandeng/Google Drive/Programming/playground/customer.csv",
+		"/Users/jonathandeng/Google Drive/Programming/playground/1.txt,",
+		"/Users/jonathandeng/Google Drive/Programming/playground/index.html",
+		"/Users/jonathandeng/Google Drive/Programming/playground/physics/scripts/require.min.js",
+		"/Users/jonathandeng/.bashrc",
+		"/Users/jonathandeng/Google Drive/Programming/express_server/node_modules/normalize-package-data/test/scripts.js",
+		"/Users/jonathandeng/Google Drive/Programming/playground/primesieve.js",
+		"/Users/jonathandeng/Google Drive/Programming/playground/primetester.js",
+		"/Users/jonathandeng/Library/Application Support/Alfred 2/Workflow Data/net.deanishe.alfred-sublime-text-projects/settings.json",
+		"/Users/jonathandeng/Google Drive/Programming/frontend_MVP/app/scripts/hashTableHelpers.js",
+		"/Users/jonathandeng/Google Drive/Programming/frontend_MVP/app/css/main.css",
+		"/Users/jonathandeng/Google Drive/Programming/frontend_MVP/node_modules/serve-index/public/style.css",
+		"/Users/jonathandeng/Google Drive/Programming/frontend_MVP/node_modules/errorhandler/public/style.css",
+		"/Users/jonathandeng/Google Drive/Programming/frontend_MVP/node_modules/phantomjs/node_modules/lodash/_arrayPush.js"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			"..",
+			"app"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"scryRenderedDOMComponentsWithTag",
+			"gz",
+			"INITIAL_STATE",
+			"db",
+			");\n",
+			"url",
+			"moment",
+			"OPTION",
+			"hasSameShape",
+			"StartOver",
+			";\n",
+			"add",
+			"filterXSS",
+			"renderRoom",
+			"submit",
+			"send",
+			"array",
+			"updateData",
+			"enemies",
+			"updateData",
+			"arr",
+			"span",
+			"http",
+			"http://localhost:8080/img/v2/iphone-bg-s",
+			"http://localhost:8080/img/v2/iphone-bg-sm.min.png ",
+			"favicon",
+			"fa",
+			".i",
+			"i",
+			"findNRooksSolution",
+			"hasAnyMajorDiagonalConflicts",
+			"))",
+			"majorDiagonalColumnIndexAtFirstRow",
+			"hasRowConflictAt",
+			"Fighter",
+			";",
+			"nestedArray",
+			"};\n",
+			"format_on_save",
+			"save",
+			"div",
+			"json",
+			"\"ctrl+super+d",
+			"reduce",
+			"retStr",
+			"typeof",
+			" \"\"",
+			"typeof",
+			"( ",
+			"typeof",
+			"retStr",
+			"       ",
+			"retStr",
+			"FILL_ME_IN",
+			"img",
+			"return false",
+			"false",
+			"var",
+			"\n            var stringified = next;\n            array.push(parseJSON(stringified));\n            next = getNext();\n        ",
+			"gist",
+			"json",
+			"getTopType"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"};\n",
+			"~~\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/course.shortly-deploy.exercise"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2570,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1068,
+								1068
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1067,
+										1068
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										972,
+										973
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material Brogrammer.tmTheme",
+							"git_savvy.file_path": "/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/course.shortly-deploy.exercise/Gruntfile.js",
+							"git_savvy.repo_path": "/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/course.shortly-deploy.exercise",
+							"syntax": "Packages/Theme - Alpenglow/Prefs/Langs/Gruntfile JS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 950.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "app/config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1475,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								277,
+								277
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material Brogrammer.tmTheme",
+							"git_savvy.file_path": "/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/course.shortly-deploy.exercise/app/config.js",
+							"git_savvy.repo_path": "/Users/jonathandeng/GoogleDrive/Programming/hack_reactor/course.shortly-deploy.exercise",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 63.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.GitSavvy":
+	{
+		"height": 144.0
+	},
+	"output.exec":
+	{
+		"height": 151.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 120.0
+	},
+	"pinned_build_system": "Packages/User/babel.sublime-build",
+	"project": "",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"gu",
+				"Gruntfile.js"
+			],
+			[
+				"app",
+				"src/App.test.js"
+			],
+			[
+				"app.js",
+				"src/App.js"
+			],
+			[
+				"short",
+				"shortly.js"
+			],
+			[
+				"link",
+				"app/models/link.js"
+			],
+			[
+				"package.json",
+				"package.json"
+			],
+			[
+				"se",
+				"test/ServerSpec.js"
+			],
+			[
+				"test/",
+				"test/ServerSpec.js"
+			],
+			[
+				"seq",
+				"orms-save-user-sequelize/sequelize.js"
+			],
+			[
+				"server.",
+				"node-post-reqs/server.js"
+			],
+			[
+				"no-sql",
+				"no-sql-compare-sql/nonRelationExplanaiton.js"
+			],
+			[
+				"re",
+				"README.md"
+			],
+			[
+				"ind",
+				"src/index.js"
+			],
+			[
+				"",
+				".eslintrc.json"
+			],
+			[
+				"test/c",
+				"test/core_spec.js"
+			],
+			[
+				"core",
+				"src/core.js"
+			],
+			[
+				"spec",
+				"server/spec/server-spec.js"
+			],
+			[
+				"controllers/",
+				"server/controllers/index.js"
+			],
+			[
+				"spec/",
+				"server/spec/server-spec.js"
+			],
+			[
+				"db/",
+				"server/db/index.js"
+			],
+			[
+				"test/pi",
+				"test/bare_minimum/promisification.test.js"
+			],
+			[
+				"cal",
+				"exercises/bare_minimum/callbackReview.js"
+			],
+			[
+				"bas",
+				"exercises/bare_minimum/basicChaining.js"
+			],
+			[
+				"htt",
+				"web/http-helpers.js"
+			],
+			[
+				"arc",
+				"helpers/archive-helpers.js"
+			],
+			[
+				"index.htm",
+				"web/public/index.html"
+			],
+			[
+				"req",
+				"web/request-handler.js"
+			],
+			[
+				"arciv",
+				"helpers/archive-helpers.js"
+			],
+			[
+				"tes",
+				"test/test.js"
+			],
+			[
+				"ba",
+				"web/basic-server.js"
+			],
+			[
+				"h",
+				"workers/htmlfetcher.js"
+			],
+			[
+				"web",
+				"web/http-helpers.js"
+			],
+			[
+				"uti",
+				"server/utils.solution.js"
+			],
+			[
+				"server",
+				"server/basic-server.js"
+			],
+			[
+				"clientse",
+				"client/clientServer.js"
+			],
+			[
+				"li",
+				"server/spec/LiveServerIntegrationSpec.js"
+			],
+			[
+				"client/app",
+				"client/scripts/app.js"
+			],
+			[
+				"client/",
+				"client/index.html"
+			],
+			[
+				"stubs",
+				"server/spec/Stubs.js"
+			],
+			[
+				"liver",
+				"server/spec/LiveServerIntegrationSpec.js"
+			],
+			[
+				"ser",
+				"server/request-handler.js"
+			],
+			[
+				"main",
+				"assets/styles/main.css"
+			],
+			[
+				"mou",
+				"app/components/Mountain.jsx"
+			],
+			[
+				"state.js",
+				"app/state.js"
+			],
+			[
+				"a",
+				"app/components/App.jsx"
+			],
+			[
+				"mount",
+				"app/components/Mountain.jsx"
+			],
+			[
+				"app.j",
+				"app/components/App.jsx"
+			],
+			[
+				"main.css",
+				"app/assets/styles/main.css"
+			],
+			[
+				"index",
+				"app/index.js"
+			],
+			[
+				"inde",
+				"src/index.js"
+			],
+			[
+				"nav.js",
+				"src/components/Nav.jsx"
+			],
+			[
+				"search.js",
+				"src/components/Search.jsx"
+			],
+			[
+				"s",
+				"SpecRunner.html"
+			],
+			[
+				"app.",
+				"src/components/App.jsx"
+			],
+			[
+				"v",
+				"src/components/VideoPlayer.jsx"
+			],
+			[
+				"videopla",
+				"src/components/VideoPlayer.jsx"
+			],
+			[
+				"searchyou",
+				"spec/lib/searchYouTubeSpec.js"
+			],
+			[
+				"vide",
+				"spec/components/VideoPlayerSpec.jsx"
+			],
+			[
+				"vid",
+				"spec/components/VideoPlayerSpec.jsx"
+			],
+			[
+				"videolisten",
+				"src/components/VideoListEntry.jsx"
+			],
+			[
+				"videolistentry",
+				"spec/components/VideoListEntrySpec.jsx"
+			],
+			[
+				"confirm",
+				"app/containers/ConfirmBattleContainer.js"
+			],
+			[
+				"home.j",
+				"app/components/Home.js"
+			],
+			[
+				"confir",
+				"app/components/ConfirmBattle.js"
+			],
+			[
+				"resuls",
+				"app/containers/ResultsContainer.js"
+			],
+			[
+				"res",
+				"app/components/Results.js"
+			],
+			[
+				"pl",
+				"client/views/PlayerView.js"
+			],
+			[
+				"player",
+				"client/views/PlayerView.js"
+			],
+			[
+				"in",
+				"client/index.html"
+			],
+			[
+				"songqueue",
+				"client/views/SongQueueView.js"
+			],
+			[
+				"libary",
+				"test/spec/LibraryViewSpec.js"
+			],
+			[
+				"son",
+				"client/models/SongModel.js"
+			],
+			[
+				"lib",
+				"client/views/LibraryView.js"
+			],
+			[
+				"so",
+				"client/models/SongModel.js"
+			],
+			[
+				"songm",
+				"client/models/SongModel.js"
+			],
+			[
+				"songque",
+				"client/views/SongQueueEntryView.js"
+			],
+			[
+				"songqueu",
+				"test/spec/SongQueueViewSpec.js"
+			],
+			[
+				"songqueuvie",
+				"client/views/SongQueueView.js"
+			],
+			[
+				"appsep",
+				"test/spec/AppSpec.js"
+			],
+			[
+				"ap",
+				"client/models/AppModel.js"
+			],
+			[
+				"song",
+				"client/models/SongModel.js"
+			],
+			[
+				"cli",
+				"client/index.html"
+			],
+			[
+				"sp",
+				"SpecRunner.html"
+			],
+			[
+				"cha",
+				"spec/chatterboxSpec.js"
+			],
+			[
+				"api",
+				"api_keys_jon"
+			],
+			[
+				"bow",
+				"bower.json"
+			],
+			[
+				"js-hi",
+				"js-inheritance-pseudo-classical/README.md"
+			],
+			[
+				"js",
+				"js-inheritance-pseudo-classical/js-inheritance-pseudo-classical.js"
+			],
+			[
+				"de",
+				"d3-bounce/README.md"
+			],
+			[
+				"algo-f",
+				"algo-find-dup-char/README.md"
+			],
+			[
+				"al",
+				"algo-find-dup-char/algo-find-dup-char.js"
+			],
+			[
+				"watc",
+				"client/watchout.js"
+			],
+			[
+				"inser",
+				"insertionSort.js"
+			],
+			[
+				"p",
+				"package.json"
+			],
+			[
+				"phy",
+				"physics/index.html"
+			],
+			[
+				"index.h",
+				"views/index.html"
+			],
+			[
+				"scripts/a",
+				"scripts/application.js"
+			],
+			[
+				"scripts",
+				"node_modules/normalize-package-data/test/scripts.js"
+			],
+			[
+				"wat",
+				"client/watchout.js"
+			],
+			[
+				"client",
+				"client/index.html"
+			],
+			[
+				"hash",
+				"app/scripts/hashTableHelpers.js"
+			],
+			[
+				"styl",
+				"node_modules/serve-index/public/style.css"
+			],
+			[
+				"i",
+				"app/index.html"
+			],
+			[
+				"board",
+				"src/Board.js"
+			],
+			[
+				"sol",
+				"src/solvers.js"
+			],
+			[
+				"boar",
+				"spec/BoardSpec.js"
+			],
+			[
+				"src/",
+				"src/solvers.js"
+			],
+			[
+				"repl",
+				"*REPL* [js]"
+			],
+			[
+				"appli",
+				"app/scripts/application.js"
+			],
+			[
+				"ini",
+				"src/init.js"
+			],
+			[
+				"style",
+				"styles.css"
+			],
+			[
+				"dan",
+				"dancefloor.html"
+			],
+			[
+				"spe",
+				"SpecRunner.html"
+			],
+			[
+				"deco",
+				"src/decorations.js"
+			],
+			[
+				"test",
+				"spec/tests.js"
+			],
+			[
+				"dancer",
+				"src/dancers.js"
+			],
+			[
+				"blink",
+				"src/blinkyDancer.js"
+			],
+			[
+				"pi",
+				"spec/pigDancerSpec.js"
+			],
+			[
+				"dance",
+				"dancefloor.html"
+			],
+			[
+				"mac",
+				"spec/macSpec.js"
+			],
+			[
+				"bl",
+				"src/blinkyDancer.js"
+			],
+			[
+				"pidan",
+				"spec/pigDancerSpec.js"
+			],
+			[
+				"bik",
+				"spec/blinkyDancerSpec.js"
+			],
+			[
+				"da",
+				"dancefloor.html"
+			],
+			[
+				"danc",
+				"src/dancer.js"
+			],
+			[
+				"blk",
+				"spec/blinkyDancerSpec.js"
+			],
+			[
+				"dancer.js",
+				"src/dancer.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 273.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

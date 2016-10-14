@@ -1,19 +1,32 @@
-var db = require('../config');
-var crypto = require('crypto');
+const mongoose = require('mongoose');
+const db = require('../config');
+const crypto = require('crypto');
+const Promise = require('bluebird');
 
-var Link = db.Model.extend({
-  tableName: 'urls',
-  hasTimestamps: true,
-  defaults: {
-    visits: 0
-  },
-  initialize: function() {
-    this.on('creating', function(model, attrs, options) {
-      var shasum = crypto.createHash('sha1');
-      shasum.update(model.get('url'));
-      model.set('code', shasum.digest('hex').slice(0, 5));
-    });
-  }
+var linkSchema = mongoose.Schema({
+  url: String,
+  baseUrl: String,
+  code: String,
+  title: String,
+  visits: Number,
+  created_at: Date,
+  updated_at: Date,
 });
+
+var Link = mongoose.model('Link', linkSchema);
+
+Link.prototype.hashUrl = function() {
+  var shasum = crypto.createHash('sha1');
+  shasum.update(this.url);
+  this.code = shasum.digest('hex').slice(0, 5);
+};
+
+Link.prototype.saveUrl = function(cb) {
+  console.log('Saving link url', this);
+  this.hashUrl();
+  this.save(function(err, url) {
+    cb(err, url);
+  });
+};
 
 module.exports = Link;
