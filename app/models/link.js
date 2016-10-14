@@ -9,8 +9,6 @@ var linkSchema = mongoose.Schema({
   code: String,
   title: String,
   visits: Number,
-  created_at: Date,
-  updated_at: Date,
 });
 
 var Link = mongoose.model('Link', linkSchema);
